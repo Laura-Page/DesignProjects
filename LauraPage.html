@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Design Projects</title>
+  <link rel="icon" type="image/svg+xml" href="images/SwissArmy.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Merriweather', serif;
+      font-weight: 400;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Merriweather', serif;
+      font-weight: 800;
+      font-size: 96px;
+      margin-top: 60px;
+      margin-bottom: 80px;
+      color: #0099CC;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      font-family: 'Merriweather', serif;
+      font-weight: 800;
+      font-size: 32px;
+      margin-top: 40px;
+      transition: color 0.3s ease;
+    }
+
+    h2:hover {
+      color: #0099CC;
+    }
+
+    section {
+      padding-bottom: 60px;
+    }
+
+    img {
+      max-width: 100%;
+      margin: 10px;
+      border-radius: 18px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: darkred;
+      text-decoration: underline;
+    }
+
+    .highlight-link {
+      color: #FF6600;
+      font-weight: 800;
+    }
+
+    .highlight-link:hover {
+      color: darkred;
+    }
+
+    .big-link {
+      font-size: 36px;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- LOGO + HEADER -->
+    <img src="images/TOPLauraPageLogo.gif" alt="Laura Page Logo" style="width: 400px;">
+    <h1>Design Projects</h1>
+
+    <!-- BIRD SECTION -->
+    <section>
+      <h2>Bird Illustrations</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        <img src="images/Owl.png" alt="Owl" style="height: 400px;">
+        <img src="images/Parrot.png" alt="Parrot" style="height: 400px;">
+        <img src="images/Flamingo.png" alt="Flamingo" style="height: 400px;">
+        <img src="images/Penguin.png" alt="Penguin" style="height: 400px;">
+        <img src="images/Hummingbird.png" alt="Hummingbird" style="height: 200px;">
+      </div>
+    </section>
+
+    <!-- PATTERN SECTION -->
+    <section>
+      <h2>Pattern Designs</h2>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; justify-items: center;">
+        <img src="images/TropicalPattern.png" alt="Tropical Pattern" style="width: 250px;">
+        <img src="images/LeavesPattern.png" alt="Leaves Pattern" style="width: 250px;">
+        <img src="images/OrangePattern.png" alt="Orange Pattern" style="width: 250px;">
+        <img src="images/TilePattern.png" alt="Tile Pattern" style="width: 250px;">
+        <img src="images/TinyFlowerPattern.png" alt="Tiny Flower Pattern" style="width: 250px;">
+        <img src="images/leafpaintingpattern.jpg" alt="Leaf Painting Pattern" style="width: 250px;">
+      </div>
+    </section>
+
+    <!-- LOGO SECTION -->
+    <section>
+      <h2>Logo Designs</h2>
+      <img src="images/BPLogo.png" alt="BP Logo" style="width: 300px;">
+      <img src="images/OlympicRingsLogo.png" alt="Olympic Rings Logo" style="width: 300px;">
+      <img src="images/GmailLogo.png" alt="Gmail Logo" style="width: 300px;">
+    </section>
+
+    <!-- GIF ROLLOVER SECTION -->
+    <section>
+      <h2>GIF Rollovers</h2>
+      <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;">
+        <img src="images/ColorPop-STILL.jpg" 
+             onmouseover="this.src='images/ColorPop.gif'" 
+             onmouseout="this.src='images/ColorPop-STILL.jpg'" 
+             alt="ColorPop Rollover">
+
+        <img src="images/MiloSquirrel-STILL.jpg" 
+             onmouseover="this.src='images/MiloSquirrel.gif'" 
+             onmouseout="this.src='images/MiloSquirrel-STILL.jpg'" 
+             alt="Milo Rollover">
+
+        <img src="images/UhOh-STILL.jpg" 
+             onmouseover="this.src='images/UhOh.gif'" 
+             onmouseout="this.src='images/UhOh-STILL.jpg'" 
+             alt="UhOh Rollover">
+      </div>
+    </section>
+
+    <!-- SVG ICON SECTION -->
+    <section>
+      <h2>Favicon</h2>
+      <div style="display: flex; justify-content: center;">
+        <img src="images/SwissArmy.svg" alt="Swiss Army SVG Icon" style="width: 200px;">
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section>
+  <h2>About the Designer</h2>
+  <p style="font-size: 25px; font-style: italic; font-weight: 400;">
+    Laura Page: creative producer, visual storyteller, and compulsive image straightener.
+  </p>
+  <div style="margin-top: 30px; display: flex; justify-content: center; gap: 60px;">
+    <a href="https://laurapagephotography.com" target="_blank" class="highlight-link" style="font-size: 28px; font-style: normal; font-weight: 800;">Photography</a>
+    <a href="https://laurapage.work" target="_blank" class="highlight-link" style="font-size: 28px; font-style: normal; font-weight: 800;">Producing</a>
+  </div>
+</section>
+  </div>
+<!-- SECRET RICK -->
+<div style="margin-top: 60px; display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+    <img src="images/Rick.png" alt="Helpful Advice" style="width: 800px;">
+  </a>
+</div>
+</body>
+</html>
